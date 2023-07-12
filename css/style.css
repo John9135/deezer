@@ -2,10 +2,17 @@ body {
     background-color: #121216;
 }
 
-.tigo {
+.header {
+    display: flex;
+    justify-content: center;
     position: relative;
     top: 20px;
-    left: 50px;
+    background: linear-gradient(to right, #121216, #351E3E, #3E1721, #143228, #121216);
+}
+
+.tigo {
+    position: relative;
+    right: 400px;
     border: solid 0.1px white;
     border-radius: 20px;
     width: 240px;
@@ -23,7 +30,99 @@ body {
 .tigo h4 {
     color: white;
     font-size: 12px;
-    font-family: "Open Sans";
+    text-decoration: none;
+    font-family: arial;
     position: relative;
     top: 10px;
+}
+
+.deezer {
+    position: relative;
+    top: 5px;
+    right: 50px;
+}
+
+.deezer h2 {
+    color: white;
+    font-size: 32px;
+}
+
+.sesion {
+    border: solid 1px white;
+    position: relative;
+    left: 400px;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+}
+
+.sesion h2 {
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.content {
+    display: block;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.content .title {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.premium {
+    background: linear-gradient(to right, #8B58E6, #4569E7, #3F9FC3);
+    text-align: center;
+    border-radius: 25px;
+}
+.premium .title {
+    position: relative;
+    top: 20px;
+    font-size: 24px;
+}
+
+.premium .detail{
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    font-size: 18px;
+}
+
+.premium .free-premium{
+    background-color: black;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+.premium .amount-time{
+    color: white;
+    font-size: 40px;
+    height: 35px;
+}
+
+.premium .price{
+    color: white;
+    font-size: 18px;
+}
+
+.premium .commitment{
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.premium .information{
+    color: white;
+    position: relative;
+    bottom: 10px;
 }
