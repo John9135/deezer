@@ -1,0 +1,29 @@
+body {
+    background-color: #121216;
+}
+
+.tigo {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    border: solid 0.1px white;
+    border-radius: 20px;
+    width: 240px;
+    height: 90px;
+    text-align: center;
+}
+
+.tigo img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+}
+
+.tigo h4 {
+    color: white;
+    font-size: 12px;
+    font-family: "Open Sans";
+    position: relative;
+    top: 10px;
+}
